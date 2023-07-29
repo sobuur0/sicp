@@ -38,4 +38,13 @@ Lexical scoping is a discipline/concept which allows for a variable to be used f
 
 # 1.2 Procedures and the processes they generate
 
+The ability to visualize the consequences of the actions under consideration is crucial to becoming an expert programmer, just as it is in any synthetic, creative activity.\
+
+A process which builds up with a chain of deferred operations and in the process gets expanded and then when it is fully expanded, starts the process of evaluation and in th
+e process begins to contract is known as a recursive process. In this recursive process, the interpreter has to keeps track of the deferred operations which are yet to be evaluated so as to evaluate them when the time comes.\
+
+When in a recursive process, the chain of deferred operations and the amount of information needed to keep track of it grows with n or is proportional to n, we say this is a linear recursive process.\
+
+ 
+
 
