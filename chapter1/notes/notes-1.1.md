@@ -45,6 +45,12 @@ e process begins to contract is known as a recursive process. In this recursive 
 
 When in a recursive process, the chain of deferred operations and the amount of information needed to keep track of it grows with n or is proportional to n, we say this is a linear recursive process.\
 
+A process which has in its state, a fixed number of state variables and a fixed rule which describes how these variables move from one state to another and also an optional end test which specifies the condition under which the process should terminate is know as an iterative process. In an iterative process, the interpreter only keeps track of a fixed number of variables used in performing the said operation.
  
-
+We say a process is linearly iterative when the number of steps in computing the operation grows linearly with n.
+ 
+When a process is said to be recursive/linear recursive, this doesnt translate to it being a recursive procedure. A recursive procedure deals with the syntactic way in which a procedure ferefs to itself. A recursive process on the other hand is a pattern of how a process evolves in a recursive manner.
+This is to say that a call to a recursive procedure in lisp, can ultimately produce a process which is iterative/linearly iterative in nature. We can then say that an iterative process can be described by a recursive procedure in lisp.
+While this isnt supported in most languages, as to produce an iterative process one would have to use looping constructs like do, repeate, while etc...
+ 
 
