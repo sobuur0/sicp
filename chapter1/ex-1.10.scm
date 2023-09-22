@@ -10,7 +10,7 @@
 (A 1 10) ;1024
 (A 2 4) ;65536
 (A 3 3) ;65536
-(A 2 6)
+(A 1 14)
 
 
 ;Give concise mathematical definitions for the functions computed by the procedures f, g, and h for
@@ -20,7 +20,7 @@
 (define (h n) (A 2 n))
 (define (k n) (* 5 n n))
 
-(f n) computes 2n
-(g n) computes 2^n-1*2
-(h n) computes ;omoo this procedure wan murder my ram
-(k n) computes 5n^2
+;(f n) computes 2n
+;(g n) computes 2^n-1*2
+;(h n) computes ;omoo this procedure wan murder my ram
+;(k n) computes 5n^2
