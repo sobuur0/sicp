@@ -50,8 +50,16 @@ A process which has in its state, a fixed number of state variables and a fixed 
 We say a process is linearly iterative when the number of steps in computing the operation grows linearly with n.
  
 When a process is said to be recursive/linear recursive, this doesnt translate to it being a recursive procedure. A recursive procedure deals with the syntactic way in which a procedure ferefs to itself. A recursive process on the other hand is a pattern of how a process evolves in a recursive manner.
+
 This is to say that a call to a recursive procedure in lisp, can ultimately produce a process which is iterative/linearly iterative in nature. We can then say that an iterative process can be described by a recursive procedure in lisp.
+
 While this isnt supported in most languages, as to produce an iterative process one would have to use looping constructs like do, repeate, while etc...
+
 The number of steps required by a tree-recursive process will be proportional to the number of nodes in the tree, while the space required will be proportional to the maximum depth of the tree.
+
 A coping mechanism for redundant computations in which a table of values is constructed as these computations are computed so that each time we are asked to apply the procedure to some argument, we ﬁrst look to see if the value is already stored in the table, in which case we avoid performing the redundant computation, is known as memoization/tabulation.
+
+In a tree recursive process, the number of steps is directly proportional to the amount of nodes in the tree while the space is proportional to the maximum depth of the tree.
+
+
 
